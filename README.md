@@ -16,10 +16,9 @@ This is a responsive portfolio website inspired by the Apple M1 gradient backgro
 To get a local copy up and running, follow these steps:
 
 1. Clone the repo
-   ```sh
-   git clone https://github.com/pmarci22/responsive-portfolio-website
+   <strong><code>git clone https://github.com/pmarci22/responsive-portfolio-website</code></strong>
 
-2. Open index.html in your browser.
+3. Open index.html in your browser.
 
 ## Contact
 
