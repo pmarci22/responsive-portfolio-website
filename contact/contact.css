@@ -133,14 +133,6 @@ body {
     font-weight: 900;
 }
 
-.nav-container {
-    display: block;
-    position: relative;
-    height: 60px;
-    background: black;
-    z-index: 1000;
-}
-
 .nav-container .checkbox {
     position: absolute;
     display: block;
@@ -189,15 +181,19 @@ body {
 }
 
 .navbar .menu-items {
-    padding-top: 120px;
+    position: absolute;
+    top: 0;
+    left: 0;
     height: 100vh;
     width: 100%;
     transform: translate(-150%);
     display: flex;
-    flex-direction: column;
     transition: transform 0.5s ease-in-out;
-    text-align: center;
-}
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+  }
 
 .navbar .menu-items li {
     margin-bottom: 1.2rem;

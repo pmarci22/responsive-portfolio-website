@@ -17,10 +17,10 @@ document.addEventListener("DOMContentLoaded", function () {
 
 document.addEventListener("DOMContentLoaded", function () {
 
-  const helloElement = document.querySelector('.navbar');
+  const navbarElement = document.querySelector('.navbar');
 
 
-  helloElement.animate(
+  navbarElement.animate(
     [
       { opacity: 0 },
       { opacity: 1 }
@@ -38,7 +38,7 @@ document.addEventListener('DOMContentLoaded', function () {
   const form = document.querySelector('.hello');
 
   checkbox.addEventListener('change', function () {
-      form.style.display = this.checked ? 'none' : 'block';
+    form.style.display = this.checked ? 'none' : 'block';
   });
 });
 
