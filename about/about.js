@@ -1,8 +1,8 @@
 document.addEventListener("DOMContentLoaded", function () {
 
-    const helloElement = document.querySelector('.introduction');
+    const textElement = document.querySelector('.introduction');
   
-    helloElement.animate(
+    textElement.animate(
       [
         { opacity: 0 },
         { opacity: 1 }
@@ -17,10 +17,10 @@ document.addEventListener("DOMContentLoaded", function () {
   
   document.addEventListener("DOMContentLoaded", function () {
   
-    const helloElement = document.querySelector('.navbar');
+    const navbarElement = document.querySelector('.navbar');
   
   
-    helloElement.animate(
+    navbarElement.animate(
       [
         { opacity: 0 },
         { opacity: 1 }
@@ -35,9 +35,9 @@ document.addEventListener("DOMContentLoaded", function () {
 
   document.addEventListener('DOMContentLoaded', function () {
     const checkbox = document.querySelector('.nav-container input.checkbox');
-    const form = document.querySelector('.introduction');
+    const introduction = document.querySelector('.introduction');
 
     checkbox.addEventListener('change', function () {
-        form.style.display = this.checked ? 'none' : 'block';
+        introduction.style.display = this.checked ? 'none' : 'block';
     });
 });

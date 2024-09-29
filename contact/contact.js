@@ -1,8 +1,8 @@
 document.addEventListener("DOMContentLoaded", function () {
 
-    const helloElement = document.querySelector('.navbar');
+    const navbarElement = document.querySelector('.navbar');
   
-    helloElement.animate(
+    navbarElement.animate(
       [
         { opacity: 0 },
         { opacity: 1 }
@@ -17,10 +17,10 @@ document.addEventListener("DOMContentLoaded", function () {
   
   document.addEventListener("DOMContentLoaded", function () {
   
-    const helloElement = document.querySelector('form');
+    const formElement = document.querySelector('form');
   
   
-    helloElement.animate(
+    formElement.animate(
       [
         { opacity: 0 },
         { opacity: 1 }
@@ -35,10 +35,10 @@ document.addEventListener("DOMContentLoaded", function () {
 
   document.addEventListener("DOMContentLoaded", function () {
   
-    const helloElement = document.querySelector('h2');
+    const h2Element = document.querySelector('h2');
   
   
-    helloElement.animate(
+    h2Element.animate(
       [
         { opacity: 0 },
         { opacity: 1 }
@@ -54,17 +54,10 @@ document.addEventListener("DOMContentLoaded", function () {
   document.addEventListener('DOMContentLoaded', function () {
     const checkbox = document.querySelector('.nav-container input.checkbox');
     const form = document.querySelector('form');
+    const h2 = document.querySelector('h2');
 
     checkbox.addEventListener('change', function () {
         form.style.display = this.checked ? 'none' : 'block';
+        h2.style.display = this.checked ? 'none' : 'block';
     });
-});
-
-document.addEventListener('DOMContentLoaded', function () {
-  const checkbox = document.querySelector('.nav-container input.checkbox');
-  const form = document.querySelector('h2');
-
-  checkbox.addEventListener('change', function () {
-      form.style.display = this.checked ? 'none' : 'block';
-  });
 });
