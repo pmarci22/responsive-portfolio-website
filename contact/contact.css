@@ -11,34 +11,29 @@ h2 {
     font-weight: bold;
     font-size: 6vh;
     z-index: 1;
+    padding: 6vh;
 }
 
 form {
+    height: 50vh;
     font-family: "sfpro";
     font-size: 5vh;
-    width:80%;
-    margin: 20px auto;
+    width:30%;
+    margin: auto;
     background-color: #00000000;
-    padding: 20px;
     border-radius: 8px;
     text-align: center;
-}
-
-label {
-    color:white;
-    font-weight: bold;
-    display: block;
-    margin-bottom: 8px;
 }
 
 input,
 textarea {
     width: 100%;
-    padding: 3vh;
+    padding: 1vh;
     margin-bottom: 16px;
     box-sizing: border-box;
     resize: none;
-    font-size: 3vh;
+    font-size: 2vh;
+    border-radius: 15px;
 }
 
 button {
@@ -47,7 +42,7 @@ button {
     color: #fff;
     padding: 4vh;
     border: none;
-    border-radius: 4px;
+    border-radius: 15px;
     cursor: pointer;
     background: linear-gradient(to right, #be22ff, #f727a9, #ff981f, #be22ff);
     background-size: 500% 500%;
@@ -73,10 +68,9 @@ button:hover {
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
-body {
+body, html {
     font-family: 'sfpro', sans-serif;
     background-color: black;
     margin: 0;
